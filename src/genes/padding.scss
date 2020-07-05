@@ -1,0 +1,8 @@
+@for $i from 0 through 15 {
+  $value: $i * 2;
+  @if $i > 10 {
+    $value: 20 + (($i - 10) * 4);
+  }
+
+  .p--#{$value} { padding: $value * 1px; }
+}
