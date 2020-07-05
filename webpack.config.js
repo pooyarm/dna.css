@@ -1,3 +1,5 @@
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 module.exports = {
   entry: './catalog/index.jsx',
   output: {
@@ -25,4 +27,10 @@ module.exports = {
       }
     ],
   },
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: "./catalog/index.html",
+      filename: "./index.html"
+    })
+  ]
 };
