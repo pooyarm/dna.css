@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 
-import '../src/index.scss';
+import './styles/index.scss';
 
 const App = () => (
   <div>
