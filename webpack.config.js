@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './catalog/index.js',
+  entry: './catalog/index.jsx',
   output: {
     path: __dirname + '/public'
   },
@@ -17,7 +17,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(js)$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"
