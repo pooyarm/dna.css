@@ -7,5 +7,6 @@
     $value: adjust-color($color, $lightness: 8% * ($i - $radius));
   
     .bg--#{$name}--#{$i} { background-color: $value; }
+    .fc--#{$name}--#{$i} { color: $value; }
   }  
 }
