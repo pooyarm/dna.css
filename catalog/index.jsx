@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 
 import PaddingPage from './pages/padding/index.jsx'
 import MarginPage from './pages/margin/index.jsx'
+import FontPage from './pages/font/index.jsx'
 
 import './styles/index.scss';
 
@@ -17,6 +18,11 @@ const App = () => {
       Component: MarginPage,
       title: 'Margin',
       alias: 'margin',
+    },
+    {
+      Component: FontPage,
+      title: 'Font',
+      alias: 'font',
     }
   ]
 
